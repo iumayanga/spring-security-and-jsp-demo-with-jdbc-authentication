@@ -22,7 +22,7 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.luv2code.springsecurity.demo")
 @PropertySource("classpath:persistence-mysql.properties")
-public class DemoAppConfig implements WebMvcConfigurer{
+public class DemoAppConfig{
 	
 	@Autowired
 	private Environment env;
